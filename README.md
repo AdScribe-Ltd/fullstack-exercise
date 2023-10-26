@@ -21,8 +21,8 @@ You should have the following installed in your environment
 
 From the root directory
 
-1. Run `npm i`
-2. Run `npm run dev`
+1. Run `npm i && cd ./client && npm i && cd ../server && npm i`
+2. From the root directory, run `npm run dev`
 
 ## The Task
 
