@@ -35,8 +35,9 @@ The requirements are as follows:
 
 1. The user should select the country via an autocomplete component
 2. The autocomplete should present 10 countries matching the search query
-3. The user should be able to select a country from the list
-4. The user should be able to clear the autocomplete
+3. The search results should match either the country code or the country name (case insensitive) - *the country code column does not exist on the Country table so you will have to add it*
+4. The user should be able to select a country from the list
+5. The user should be able to clear the autocomplete
 
 Don't worry about styling for now.
 
