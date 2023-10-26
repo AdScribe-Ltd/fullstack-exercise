@@ -10,10 +10,7 @@ TypeScript, Express and Prisma.
 ### Requirements
 
 You should have the following installed in your environment
-
 - NPM
-- Visual Studio Code
-- [Visual Studio Code Live Share Extension](https://code.visualstudio.com/learn/collaboration/live-share)
 
 ### Setup
 
@@ -21,8 +18,14 @@ You should have the following installed in your environment
 
 From the root directory
 
-1. Run `npm i && cd ./client && npm i && cd ../server && npm i`
-2. From the root directory, run `npm run dev`
+1. `npm i`
+2. `cd ./client && npm i`
+3. `cd ../server && npm i`
+4. `npx prisma migrate --dev --name "init"`
+5. `cd ../`
+6. `npm run dev`
+
+Please message me on LinkedIn if you have any questions.
 
 ## The Task
 
