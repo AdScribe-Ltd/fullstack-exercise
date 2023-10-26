@@ -1,0 +1,12 @@
+{
+    "name": "my-app",
+    "scripts": {
+        "client": "cd client && npm start",
+        "server": "concurrently \"cd server && npx tsc --watch\"  \"cd server && nodemon dist/server.js\"",
+        "dev": "concurrently \"npm run server\" \"npm run client\""
+    },
+    "devDependencies": {
+        "concurrently": "^6.2.2",
+        "nodemon": "3.0.1"
+    }
+}
