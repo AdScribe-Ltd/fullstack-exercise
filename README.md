@@ -2,31 +2,39 @@
 
 ## Introduction
 
-> Congratulations on reaching this stage of the interview process! In this
-> exercise, we will build a feature end-to-end using React, TypeScript, Express
-> and Prisma.
+> Congratulations on reaching this stage of the interview process!
+
+In this exercise, we will be building a fullstack feature using React,
+TypeScript, Express and Prisma.
 
 ### Requirements
 
 You should have the following installed in your environment
 
 - NPM
-- SQlite
+- Visual Studio Code
+- [Visual Studio Code Live Share Extension](https://code.visualstudio.com/learn/collaboration/live-share)
 
 ### Setup
 
 1. Clone the repository
-2. Run `npm i`
-3. Run `npm`
+
+From the root directory
+
+1. Run `npm i`
+2. Run `npm run dev`
 
 ## The Task
 
-In this exercise we will be creating a new feature end-to-end to enable users to
-select a country.
+Build an autocomplete that allows users to search and select a country.
 
 The requirements are as follows:
 
 1. The user should select the country via an autocomplete component
 2. The autocomplete should present 10 countries matching the search query
 3. The user should be able to select a country from the list
-4. The user should be able to clear the field
+4. The user should be able to clear the autocomplete
+
+Don't worry about styling for now.
+
+Good luck!
